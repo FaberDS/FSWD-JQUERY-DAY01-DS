@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        var bla = $("input:text").val();
+        $('span').val(bla);
+    });
+});
+
+</script>
+</head>
+<body>
+
+<p>Name: <input type="text" name="user"></p>
+
+<button>Set the value of the input field</button>
+<span></span>
+</body>
+</html>
